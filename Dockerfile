@@ -8,5 +8,5 @@ RUN  yum install zip unzip -y
 RUN  unzip carvilla.zip 
 RUN  cp -rf carvilla-v1.0/* .
 RUN  rm -rf carvilla.zip carvilla-v1.0
-EXPOSE 80
+EXPOSE 80:80:80
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
