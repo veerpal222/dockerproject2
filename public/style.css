@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(139,45,253,0.2413340336134454) 100%);
+  }
+  
+  canvas {
+    display:block;
+    margin: 40px auto 20px;
+    border: 1px solid #333;
+    box-shadow: 0 0 16px 2px rgba(0,0,0,0.8);
+  }
+  
+  .head{
+    margin-left : auto;
+    margin-right : auto;
+    color:darkorange;
+  }
+
+  p, a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    color: #777;
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration:none;
+  }
+  
+  .info {
+    margin:14px auto;
+    text-align: justify;
+    font-size: 18px;
+    color: #999;
+  }
+  
+  a {
+    color:#3377ee;
+  }
